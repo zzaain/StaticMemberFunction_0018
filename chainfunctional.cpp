@@ -10,6 +10,9 @@ class buku{
         return *this;    //chain function
     }
 
+    string getJudul(){
+        return this->judul;
+    }
     
 };
 
